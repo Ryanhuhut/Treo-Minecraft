@@ -1,15 +1,13 @@
 {
-  "name": "nodejs",
+  "name": "minecraft-simple-bot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/node": "^22.13.11"
+    "express": "^4.18.2",
+    "mineflayer": "^4.16.0",
+    "socket.io": "^4.7.2"
   }
 }
